@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <title>Intro Section with Dropdown Navigation</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="navbar">
+      <div class="overlay close"></div>
+      <img src="./images/logo.svg" alt="" />
+      <div class="hamburger-menu"></div>
+      <div class="nav-container close">
+        <div class="nav-close"></div>
+        <nav class="nav-items">
+          <div class="features-container">
+            <div id="features-toggle" class="nav-item">
+              <h3>Features</h3>
+              <img
+                src="./images/icon-arrow-down.svg"
+                class="dropdown-toggle"
+                alt=""
+              />
+            </div>
+            <div id="features-dropdown" class="dropdown-side close">
+              <div class="nav-item">
+                <img src="./images/icon-todo.svg" class="icon" alt="" />
+                <h3>Todo List</h3>
+              </div>
+              <div class="nav-item">
+                <img src="./images/icon-calendar.svg" class="icon" alt="" />
+                <h3>Calendar</h3>
+              </div>
+              <div class="nav-item">
+                <img src="./images/icon-reminders.svg" class="icon" alt="" />
+                <h3>Reminders</h3>
+              </div>
+              <div class="nav-item">
+                <img src="./images/icon-planning.svg" class="icon" alt="" />
+                <h3>Planning</h3>
+              </div>
+            </div>
+          </div>
+
+          <div class="company-container">
+            <div id="company-toggle" class="nav-item">
+              <h3>Company</h3>
+              <img
+                src="./images/icon-arrow-down.svg"
+                class="dropdown-toggle"
+                alt=""
+              />
+            </div>
+            <div id="company-dropdown" class="dropdown-side close">
+              <div class="nav-item">
+                <h3>History</h3>
+              </div>
+              <div class="nav-item">
+                <h3>Our Team</h3>
+              </div>
+              <div class="nav-item">
+                <h3>Blog</h3>
+              </div>
+            </div>
+          </div>
+
+          <div class="careers-container">
+            <div class="nav-item">
+              <h3>Careers</h3>
+            </div>
+          </div>
+
+          <div class="about-container">
+            <div class="nav-item">
+              <h3>About</h3>
+            </div>
+          </div>
+        </nav>
+
+        <div class="nav-buttons">
+          <button class="login-btn">Login</button>
+          <button class="register-btn">Register</button>
+        </div>
+      </div>
+    </header>
+
+    <main class="main-container">
+      <img
+        src="./images/image-hero-mobile.png"
+        class="hero-mobile-img"
+        alt=""
+      />
+      <div class="main-content">
+        <h1><span>Make</span> remote work</h1>
+        <p>
+          Get your team in sync, no matter your location. Streamline processes,
+          create team rituals, and watch productivity soar.
+        </p>
+
+        <button class="learn-more-btn">Learn more</button>
+        <div class="clients">
+          <img src="./images/client-databiz.svg" alt="" />
+          <img src="./images/client-audiophile.svg" alt="" />
+          <img src="./images/client-meet.svg" alt="" />
+          <img src="./images/client-maker.svg" alt="" />
+        </div>
+      </div>
+      <img
+        src="./images/image-hero-desktop.png"
+        class="hero-desktop-img"
+        alt=""
+      />
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
